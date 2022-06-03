@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Project 1
 
-You can use the [editor on GitHub](https://github.com/hsacrey/cit281-project1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I used the CLI to create and navigate through a bunch of folders, then I was to list those folders in a "tree-like structure": ![p1-tree](/p1-folders.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I practiced using the ping command and using break in the console (Ctrl+C): ![ping n break](/p1-break.png)
 
-### Markdown
+I also created and executed the following Javascript files:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#### p1-date.js:
+```javascript
+/*
+    CIT 281 Project 1
+    Name: Hunter Sacrey
+*/
+//"Days of the week" array -> Get today's date -> convert it to day of the week -> print
+const dotw = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; 
+console.log(dotw[new Date().getDay()]);
 ```
+#### p1-random.js:
+```javascript
+/*
+    CIT 281, Project 1
+    Name: Hunter Sacrey
+*/
+// Returns a random number between min (inclusive) and max (exclusive)
+function getRandomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+let alpha = "abcdefghijklmnopqrstuvwxyz";
+let result = "";
 
-### Jekyll Themes
+let wordLength = getRandomInteger(5, 26);
+for (let i = 0; i <= wordLength; i++){
+    randomIndex = getRandomInteger(0,26);
+    result += alpha[randomIndex];
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hsacrey/cit281-project1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+console.log(result);
+```
