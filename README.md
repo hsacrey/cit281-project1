@@ -42,3 +42,4 @@ for (let i = 0; i <= wordLength; i++){
 
 console.log(result);
 ```
+### Primary concepts: accessing the Windows command line interface (CLI), working with CLI command, writing and executing non-web server Node.js JavaScript code
