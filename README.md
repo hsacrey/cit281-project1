@@ -1,8 +1,12 @@
 ## Project 1
 
-I used the CLI to create and navigate through a bunch of folders, then I was to list those folders in a "tree-like structure": ![p1-tree](/p1-folders.png)
+I used the CLI to create and navigate through a bunch of folders, then I was to list those folders in a "tree-like structure":
 
-I practiced using the ping command and using break in the console (Ctrl+C): ![ping n break](/p1-break.png)
+![p1-tree](/p1-tree.png)
+
+I practiced using the ping command and using break in the console (Ctrl+C):
+
+![ping n break](/p1-break.png)
 
 I also created and executed the following Javascript files:
 
