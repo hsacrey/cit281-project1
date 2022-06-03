@@ -1,5 +1,7 @@
 ## Project 1
 
+### Primary concepts: accessing the Windows command line interface (CLI), working with CLI command, writing and executing non-web server Node.js JavaScript code
+
 I used the CLI to create and navigate through a bunch of folders, then I was to list those folders in a "tree-like structure":
 
 ![p1-tree](/p1-folders.png)
@@ -42,4 +44,3 @@ for (let i = 0; i <= wordLength; i++){
 
 console.log(result);
 ```
-### Primary concepts: accessing the Windows command line interface (CLI), working with CLI command, writing and executing non-web server Node.js JavaScript code
