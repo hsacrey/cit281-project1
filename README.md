@@ -2,7 +2,7 @@
 
 I used the CLI to create and navigate through a bunch of folders, then I was to list those folders in a "tree-like structure":
 
-![p1-tree](/p1-tree.png)
+![p1-tree](/p1-folders.png)
 
 I practiced using the ping command and using break in the console (Ctrl+C):
 
